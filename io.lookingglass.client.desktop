@@ -2,7 +2,7 @@
 Name=Looking Glass
 Icon=io.lookingglass.client
 StartupWMClass=looking-glass-client
-Exec=/usr/bin/flatpak run --branch=stable --arch=x86_64 --command=looking-glass-client io.lookingglass.client input:grabKeyboard=no win:noScreensaver=yes win:quickSplash=yes input:rawMouse=yes win:size=1600x900 egl:multisample=no
+Exec=looking-glass-client io.lookingglass.client input:grabKeyboard=no win:noScreensaver=yes win:quickSplash=yes input:rawMouse=yes win:size=1600x900 egl:multisample=no
 Terminal=false
 Type=Application
 X-Flatpak=io.lookingglass.client
