@@ -1,6 +1,6 @@
 [Desktop Entry]
 Name=Looking Glass
 Icon=io.lookingglass.client
-Exec=looking-glass-client
+Exec=looking-glass-client input:grabKeyboard=no win:noScreensaver=yes win:quickSplash=yes input:rawMouse=yes win:size=1600x900 egl:multisample=no
 Terminal=false
 Type=Application
